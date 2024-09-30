@@ -5,7 +5,6 @@
         static void Main(string[] args)
         {
             //Write a program which takes two numbers from the console and displays the maximum of the two.  
-
             
             Console.WriteLine("Insert the first number: ");
             int firstNumber = Convert.ToInt32(Console.ReadLine());
