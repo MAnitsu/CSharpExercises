@@ -20,8 +20,10 @@
         // create a recursive function that returns the factorial of a number
         private static int Factorial(int num)
         {
+            // exit condition
             if (num == 1)
                 return 1;
+
             return num * Factorial(num - 1);
         }
     }
