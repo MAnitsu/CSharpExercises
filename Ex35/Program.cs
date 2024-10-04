@@ -24,11 +24,17 @@
                 }
 
                 // split the input and try to parse it to an array of integers and then to a list
-                var numberList = input.Split(',').Select(n => {
-                    int result;
-                    if (int.TryParse(n.Trim(), out result)) return result;
-                    else return (int?)null;
-                }).Where(n => n.HasValue).Select(n => n.Value).ToList();
+                var numberList = input.Split(',') // Splits the input string by commas into an array of substrings.
+                    .Select(n => { // Iterates through each substring (potential number).
+                        int result;
+                        if (int.TryParse(n.Trim(), out result)) // Tries to parse the trimmed substring into an integer.
+                            return result; // If successful, return the parsed integer.
+                        else
+                            return (int?)null; // If not successful, return null (nullable integer).
+                    })
+                    .Where(n => n.HasValue) // Filters out null values (non-parsable entries).
+                    .Select(n => n.Value) // Converts the nullable integers into normal integers.
+                    .ToList(); // Collects the valid integers into a List<int>.
 
                 // if the array contains less than 5 numbers prompts for a retry
                 if (numberList.Count() < 5)
