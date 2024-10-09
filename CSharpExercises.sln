@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningEx1", "JustATest\Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningEx2", "LearningEx2\LearningEx2.csproj", "{4E07E744-88DE-4D10-BB84-7D1E109E2568}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningEx3", "LearningEx3\LearningEx3.csproj", "{7B6B5BF8-3F21-4951-BDDE-98FCBC5681A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningEx4", "LearningEx4\LearningEx4.csproj", "{C55D888F-489B-4EBE-B439-65FC7320AB0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{4E07E744-88DE-4D10-BB84-7D1E109E2568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E07E744-88DE-4D10-BB84-7D1E109E2568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E07E744-88DE-4D10-BB84-7D1E109E2568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6B5BF8-3F21-4951-BDDE-98FCBC5681A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6B5BF8-3F21-4951-BDDE-98FCBC5681A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6B5BF8-3F21-4951-BDDE-98FCBC5681A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6B5BF8-3F21-4951-BDDE-98FCBC5681A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55D888F-489B-4EBE-B439-65FC7320AB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55D888F-489B-4EBE-B439-65FC7320AB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55D888F-489B-4EBE-B439-65FC7320AB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55D888F-489B-4EBE-B439-65FC7320AB0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
