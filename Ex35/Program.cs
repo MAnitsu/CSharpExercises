@@ -36,13 +36,13 @@
                     .Select(n => n.Value) // Converts the nullable integers into normal integers.
                     .ToList(); // Collects the valid integers into a List<int>.
 
-                // if the array contains less than 5 numbers prompts for a retry
+                // if the list contains less than 5 numbers prompts for a retry
                 if (numberList.Count() < 5)
                 {
                     Console.WriteLine("Invalid list, try again!");
                 }
 
-                else // checks if the array contains more than 5 numbers
+                else // checks if the list contains more than 5 numbers
                 {
                     // get the 3 smallest numbers
                     var smallestNumbers = numberList.OrderBy(n => n).Take(3);
